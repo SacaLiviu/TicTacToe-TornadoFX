@@ -24,6 +24,8 @@ class Controller : Controller() {
             true
         else if (board[1]==1&& board [4]==1 &&board[7]==1)
             true
+        else if (board[0]==1&& board [3]==1 &&board[6]==1)
+            true
         else board[2] == 1 && board[4] == 1 && board[6] == 1
     }
     private fun checkWinPlayer2() {
@@ -39,6 +41,8 @@ class Controller : Controller() {
         else if (board[2] == 2 && board[5] == 2 && board[8] == 2)
             true
         else if (board[1]==2&& board [4]==2 &&board[7]==2)
+            true
+        else if (board[0]==2&& board [3]==2 &&board[6]==2)
             true
         else board[2] == 2 && board[4] == 2 && board[6] == 2
     }
