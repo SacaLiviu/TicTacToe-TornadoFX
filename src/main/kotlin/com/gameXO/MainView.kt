@@ -67,6 +67,7 @@ class MainView : View("Player 1 turn") {
                             resetButtons()
                             controller.reset()
                             this@MainView.title="Player 1 turn"
+                            player=1
                         }
                     }
                 }
